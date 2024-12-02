@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    display: block;
+    margin: 0;
+    color: black;
+    font-family: "Outfit";
+}
+button{
+    border-radius: 10px;
+    border: none;
+    background: rgba( 255, 255, 255, 0.25 );
+    color: black;
+}
+p{
+    font-size: 18px;
+}
+button:hover{
+    box-shadow: 3px 3px 2px rgba( 255, 255, 255, 0.18 );
+}
+.generator-card{ 
+    width: 600px;
+    height: 300px;
+    display: flex;
+    margin: 200px auto;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+.password-display{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+.password-settings{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.change-btn{
+    width: 100px;
+    height: 30px;
+}
+.text{
+    width: 100px;
+    height: 30px;
+}
+.outfit-embed {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  }
+.action-btn{
+    width: 30px;
+    height: 30px;
+}
+.generate-btn{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+#password-el{
+    color: gray;
+}
